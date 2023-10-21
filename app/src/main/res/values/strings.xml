@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="enter_mobile_number"> Enter Mobile Number</string>
+    <string name="enter_password"> Enter Password</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">New User? Sign Up</string>
+    <string name="EnterUsername"> Username (minimum 3 characters)</string>
+    <string name="email_address"> Email Address</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="get_otp">get otp</string>
+    <string name="enter_otp"> Enter OTP</string>
+    <string name="submit">submit</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurant">Favourite Restaurant</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQS</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="name_here">Name here</string>
+    <string name="open">Open drawer</string>
+    <string name="close">Closed drawer</string>
+    <string name="preference_file_name">Restaurant file</string>
+    <string name="question1">Q1. Why Foodies?</string>
+    <string name="answer1">A1. At Foodies we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. Foodies Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="question2">Q2. How are you guys different?</string>
+    <string name="answer2">A2. Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for Foodies Restaurant. Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+    <string name="question3">Q3. Why is Foodies doing this?</string>
+    <string name="answer3">A3. At Foodies we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. Foodies Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="question4">Q4. How are you guys different?</string>
+    <string name="answer4">A4. Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for Foodies Restaurant. Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+
+    <string name="profile">Profile</string>
+</resources>

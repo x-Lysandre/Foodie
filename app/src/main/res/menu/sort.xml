@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Sort"
+        android:title="according to Rating"
+        android:icon="@drawable/sort"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/RatingSort"
+                android:title="according to Rating"
+
+                />
+            <item
+                android:id="@+id/NameSort"
+                android:title="according to Name"
+                />
+            <item
+                android:id="@+id/PriceSort"
+                android:title="according to Price"
+
+                />
+
+        </menu>
+
+    </item>
+
+</menu>

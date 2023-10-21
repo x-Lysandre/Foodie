@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2">
+    <TextView
+        android:id="@+id/item_name_history2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:drawableStart="@drawable/bulet"
+        android:layout_marginTop="15dp"
+        android:textSize="24sp"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1.4"
+        />
+    <TextView
+        android:id="@+id/price_history2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Rs. 100"
+        android:layout_marginTop="15dp"
+        android:textSize="24sp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="0.6"/>
+
+
+</LinearLayout>

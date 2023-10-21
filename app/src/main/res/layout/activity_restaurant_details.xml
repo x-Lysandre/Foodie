@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Restaurant_Details">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+    <RelativeLayout
+        android:id="@+id/choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp">
+            <TextView
+                android:id="@+id/txtHeart"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:drawablePadding="30dp"
+                android:paddingStart="5dp"
+                android:paddingTop="20dp"
+                android:text="  Choose from menu listed below:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableEnd="@drawable/fav_outline" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Recycler_Details"
+            android:layout_below="@id/Card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ProceedToCartLayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/btnProCart"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="proceed to Cart"
+            android:textSize="22sp"
+            android:backgroundTint="@color/cyan_a400"
+            android:textColor="@color/black"
+
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
